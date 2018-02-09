@@ -62,7 +62,10 @@ main{
 
 header {
     display: flex;
+    position: fixed;
+    width: 100vw;
     justify-content: space-between;
+    background-color: #5e5e5e;
 }
 
 nav > ul {
@@ -80,6 +83,10 @@ nav > ul {
     padding:80px 20px;
     text-align:center;
     background-color: #F5A503;
+}
+
+body {
+    margin: 0;
 }
 
 #about img{
