@@ -4,7 +4,6 @@ html{
 }
 
 main{
-    height:100vw;
     width:100vw;
     background-color: lightblue;
 
@@ -67,7 +66,7 @@ header {
     position: fixed;
     width: 100vw;
     justify-content: space-between;
-    background-color: #5e5e5e;
+    background-color: rgb(30, 29, 29);
 }
 
 nav > ul {
@@ -78,7 +77,18 @@ nav > ul {
 }
 
 .nav-items li {
-    padding-right: 8vw;
+    padding-right: 4vw;
+}
+.nav-items li a{
+    color:white;
+}
+.nav-link{
+    margin: 0px 10px;
+
+
+}
+.nav-link li:hover{
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #about{
