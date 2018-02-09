@@ -6,6 +6,35 @@ html{
 main{
     height:100vw;
     width:100vw;
+    background-color: lightblue;
+}
+
+.projContainer{
+    width: 80vw;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.projects{
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 45%;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#portfolio{
+    display:flex;
+    width:100vw;
+    justify-content: center;
+}
+
+.portSection{
+    text-align:center;
+    width:100vw;
 }
 
 #intro {
@@ -13,13 +42,39 @@ main{
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    background-color: #600080;
 }
 
 #header-image {
-    margin-top: 20vh;
+    margin-top: 16vh;
     height: 50vh;
     width: 50vh;
     border-radius: 50%;
+}
+
+#intro > h1 {
+    margin-top: 8vh;
+}
+
+#logo {
+    height: 10vh;
+    width: 10vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1vw 15vw;
+}
+
+.nav-items li {
+    padding-right: 8vw;
 }
 
 
@@ -28,6 +83,7 @@ main{
     text-align:center;
     background-color: #F5A503;
 }
+
 #about img{
     border-radius: 5px;
     width: 125px;
@@ -37,20 +93,26 @@ main{
     padding: 15px;
     background-color: white;
 }
+
 #about-content .icons {
     margin: 90px 0;
     font-size: 0;
 }
+
 #about h3{
     margin-top:50px;
 }
+
 #portfolio_links{
     display:inline;
 }
+
 hr {
     border: 0;
     border-top: 3px solid black;
     width: 100%;
     max-width: 300px;
-    margin: 20px auto; }
+    margin: 20px auto;
+}
+
 
