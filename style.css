@@ -7,3 +7,17 @@ main{
     width:100vw;
 }
 
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#header-image {
+    margin-top: 20vh;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+}
+
