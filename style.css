@@ -41,7 +41,6 @@ main{
 #intro {
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
     background-color: #600080;
 }
@@ -135,8 +134,8 @@ hr {
 }
 .social-button > ul {
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    padding: 0;
+}
 
 #portfolio_links button {
     background-color: rgba(16, 18, 20, 0.8);
@@ -153,6 +152,6 @@ hr {
 .social-button li {
     width: 5vh;
     height: 5vh;
-    margin-left: 2vw;
+    margin: 0 2vw;
     list-style-type: none;
 }
