@@ -5,13 +5,15 @@ html{
 main{
     height:100vw;
     width:100vw;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .projContainer{
-    width: 80vw;
+    width: 80%;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projects{
@@ -23,17 +25,34 @@ main{
     justify-content: center;
     align-items: center;
     margin: 10px;
+    background-image: url('images/project1.jpg');
+    background-size: cover;
 }
 
+.projects h3{
+    color:white;
+    font-size:3rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.projects:hover{
+    opacity: 0.35
+}
+
+
 #portfolio{
-    display:flex;
-    width:100vw;
+    display: flex;
+    width: 100vw;
     justify-content: center;
 }
 
 .portSection{
     text-align:center;
     width:100vw;
+    background-color: rgb(91, 72, 77);
+    padding-top: 70px;
+    padding-bottom: 70px;
+
 }
 
 #intro {
