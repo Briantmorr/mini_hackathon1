@@ -154,7 +154,8 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #5e5e5e;
+    background-color: rgb(30, 29, 29);
+    color:white;
 }
 .social-button p {
     margin: 0;
