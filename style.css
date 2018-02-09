@@ -6,4 +6,33 @@ main{
     height:100vw;
     width:100vw;
 }
-
+#about{
+    padding:80px 20px;
+    text-align:center;
+    background-color: #F5A503;
+}
+#about img{
+    border-radius: 5px;
+    width: 125px;
+    height: auto;
+    vertical-align: middle;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+#about-content .icons {
+    margin: 90px 0;
+    font-size: 0;
+}
+#about h3{
+    margin-top:50px;
+}
+#portfolio_links{
+    display:inline;
+}
+hr {
+    border: 0;
+    border-top: 3px solid black;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto; }
