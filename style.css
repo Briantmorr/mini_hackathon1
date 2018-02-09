@@ -1,11 +1,11 @@
 html{
     font-size:2vmin;
+    font-family: "Roboto Slab", Georgia, serif;
 }
 
 main{
     height:100vw;
     width:100vw;
-    /* background-color: lightblue; */
 }
 
 .projContainer{
@@ -81,25 +81,31 @@ main{
 
 header {
     display: flex;
+    position: fixed;
+    width: 100vw;
     justify-content: space-between;
+    background-color: #5e5e5e;
 }
 
 nav > ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding: 1vw 15vw;
+    padding: 1vw 5vw;
 }
 
 .nav-items li {
     padding-right: 8vw;
 }
 
-
 #about{
     padding:80px 20px;
     text-align:center;
     background-color: #F5A503;
+}
+
+body {
+    margin: 0;
 }
 
 #about img{
@@ -132,5 +138,15 @@ hr {
     max-width: 300px;
     margin: 20px auto;
 }
-
+#portfolio_links button {
+    background-color: rgba(16, 18, 20, 0.8);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:3%;
+}
 
