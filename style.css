@@ -40,13 +40,12 @@ nav > ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding: 1vw 15vw;
+    padding: 1vw 5vw;
 }
 
 .nav-items li {
     padding-right: 8vw;
 }
-
 
 #about{
     padding:80px 20px;
