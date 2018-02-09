@@ -121,4 +121,25 @@ hr {
     margin: 20px auto;
 }
 
+.social-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e5e5e;
+}
+.social-button p {
+    margin: 0;
+}
+.social-button > ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
 
+.social-button li {
+    width: 5vh;
+    height: 5vh;
+    margin-left: 2vw;
+    list-style-type: none;
+}
