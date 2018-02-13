@@ -2,8 +2,8 @@ html{
     font-size:2vmin;
     font-family: "Roboto Slab", Georgia, serif;
 }
-
-main{
+body {
+    margin: 0;
     width:100vw;
 }
 
@@ -19,19 +19,19 @@ main{
     border: 2px solid black;
     border-radius: 2%;
     width: 45%;
-    height: 350px;
+    height: 45vh;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 2vmin;
     background-image: url('images/project1.jpg');
     background-size: cover;
 }
 
-.projects h3{
+.projects{
     color:white;
     font-size:3rem;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px black;
 }
 
 .projects:hover{
@@ -41,30 +41,30 @@ main{
 
 #portfolio{
     display: flex;
-    width: 100vw;
     justify-content: center;
 }
 
 .portSection{
     text-align:center;
-    width:100vw;
     background-color: rgb(91, 72, 77);
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 9vh 0;
 
 }
 
 #intro {
+    padding-top:16vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #600080;
+    background-color: lightblue;
+    background-image: url("hackathon1_Assets/hackathonBackground.jpg");
+    background-size:cover;
 }
 
 #header-image {
-    margin-top: 16vh;
-    height: 50vh;
-    width: 50vh;
+    height: 50vmin;
+    width: 50vmin;
+    opacity:.6;
     border-radius: 50%;
 }
 
@@ -73,8 +73,7 @@ main{
 }
 
 #logo {
-    height: 10vh;
-    width: 10vh;
+    height: 10vmin;
 }
 
 header {
@@ -99,55 +98,42 @@ nav > ul {
     color:white;
 }
 .nav-link{
-    margin: 0px 10px;
-
-
+    margin: 0px 2vmin;
 }
 .nav-link li:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 #about{
-    padding:80px 20px;
+    padding:10vh;
     text-align:center;
     background-color: #F5A503;
 }
 
-body {
-    margin: 0;
-}
-
 #about img{
-    border-radius: 5px;
-    width: 125px;
-    height: auto;
-    vertical-align: middle;
-    margin: 15px;
-    padding: 15px;
+    border-radius: 5%;
+    width: 16vmin;
+    #vertical-align: middle;
+    margin: 2vmin;
+    padding: 2vmin;
     background-color: white;
 }
 
-#about-content .icons {
-    margin: 90px 0;
-    font-size: 0;
-}
-
 #about h3{
-    margin-top:50px;
+    margin-top:8vh;
 }
 
 #portfolio_links{
     display:inline;
 }
 
-hr {
-    border: 0;
-    border-top: 3px solid black;
-    width: 100%;
-    max-width: 300px;
-    margin: 20px auto;
+.hr::after {
+    content:'';
+    display:block;
+    width:40%;
+    border-bottom: 3px solid black;
+    margin: 3vh auto;
 }
-
 
 .social-button {
     display: flex;
@@ -169,11 +155,11 @@ hr {
     background-color: rgba(16, 18, 20, 0.8);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 2vmin 4vmin;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2vmin;
     border-radius:3%;
 }
 
@@ -182,4 +168,8 @@ hr {
     height: 5vh;
     margin: 0 2vw;
     list-style-type: none;
+}
+a{
+    color:white;
+    display:inline;
 }
