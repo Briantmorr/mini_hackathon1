@@ -28,32 +28,36 @@ main{
     background-size: cover;
 }
 
-.projects h3{
+.projects h3 {
     color:white;
     font-size:3rem;
     text-shadow: 2px 2px 4px #000000;
 }
 
-.projects:hover{
+.projects:hover {
     opacity: 0.35
 }
 
 
-#portfolio{
+#portfolio {
     display: flex;
-    width: 100vw;
     justify-content: center;
 }
 
-.portSection{
-    text-align:center;
-    width:100vw;
+.portSection {
+    text-align: center;
     background-color: rgb(91, 72, 77);
-    padding-top: 70px;
-    padding-bottom: 70px;
-
+    padding-top: 2%;
+    padding-bottom: 7%;
 }
 
+.portSection > h1::after {
+    content: '';
+    display: block;
+    width: 20%;
+    border-bottom: 2px solid black;
+    margin: 10px auto 0;
+}
 #intro {
     display: flex;
     flex-direction: column;
@@ -68,8 +72,16 @@ main{
     border-radius: 50%;
 }
 
-#intro > h1 {
-    margin-top: 8vh;
+#intro > h1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 10px auto 0;
+}
+
+#intro > h2 {
+    margin-top: 0;
 }
 
 #logo {
@@ -108,7 +120,7 @@ nav > ul {
 }
 
 #about{
-    padding:80px 20px;
+    padding:3% 2%;
     text-align:center;
     background-color: #F5A503;
 }
@@ -118,13 +130,21 @@ body {
 }
 
 #about img{
-    border-radius: 5px;
-    width: 125px;
+    border-radius: 5%;
+    width: 15%;
     height: auto;
     vertical-align: middle;
-    margin: 15px;
-    padding: 15px;
+    margin: 1.5%;
+    padding: 1.5%;
     background-color: white;
+}
+
+#about > h1::after {
+    content: '';
+    display: block;
+    width: 22%;
+    border-bottom: 2px solid black;
+    margin: 10px auto 0;
 }
 
 #about-content .icons {
@@ -134,6 +154,22 @@ body {
 
 #about h3{
     margin-top:50px;
+}
+
+.icons > h3::after {
+    content: '';
+    display: block;
+    width: 43%;
+    border-bottom: 2px solid black;
+    margin: 10px auto 0;
+}
+
+.icons > h3.tools::after {
+    content: '';
+    display: block;
+    width: 27%;
+    border-bottom: 2px solid black;
+    margin: 10px auto 0;
 }
 
 #portfolio_links{
@@ -157,8 +193,8 @@ hr {
     background-color: rgb(30, 29, 29);
     color:white;
 }
-.social-button p {
-    margin: 0;
+.social-button {
+    text-align: center;
 }
 .social-button > ul {
     display: flex;
@@ -169,7 +205,7 @@ hr {
     background-color: rgba(16, 18, 20, 0.8);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1.5% 3.2%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
